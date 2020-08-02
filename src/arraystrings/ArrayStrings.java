@@ -5,11 +5,11 @@ import java.util.HashMap;
 public class ArrayStrings {
 	
 	public static void main(String[] args) {
-		Boolean a = uniqueChars("abcdtfgnm");
+		Boolean a = isUnique("abcdtfgnm");
 		System.out.println(a);
 	}
 	
-	private static Boolean uniqueChars(String s) {
+	private static Boolean isUnique(String s) {
 		
 		HashMap<String, Boolean> mHash = new HashMap<String, Boolean>();
 		String[] mArray = s.split("");
